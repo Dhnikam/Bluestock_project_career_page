@@ -1,0 +1,1009 @@
+body {
+  overflow-x: hidden;
+   /* Add this line to enable the y-scrollbar */
+}
+
+/* ... (rest of your CSS code) ... */
+
+.container-fluid{
+  margin-left: 220px;
+}
+ .nav-item{
+  margin-left:28px ;
+  margin-right: 12px;
+ }
+ .sign-in {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-right: 45px;
+  margin-top: 7px;
+}
+
+
+.sign-in:hover {
+  color: #007bff;
+}
+.home {
+  color: blue;
+}
+.p .h{
+  margin-left: 70px;
+}
+.h{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+@media (max-width: 700px) {
+
+  .nav-item {
+    margin-right: 80%;
+
+  }
+
+  .sign-in {
+    margin-left: 30px;
+  }
+  #Signup{
+    margin-left: 70%;
+  }
+  @media (max-width: 768px) {
+    #Signup {
+      width: auto;
+      margin-left: 70%;
+    }
+  }
+
+}
+
+.t{
+   margin-top: -20px;
+  margin-left:70px;
+}
+.g{
+  width:25%;
+
+}
+.square-btn {
+  width: 80px;
+  height: 50px;
+}
+.g {
+  gap: 10px;
+}
+
+.square-btn {
+  margin-top: 10px;
+  margin-left: 140px;
+  width:80%;
+  white-space: nowrap;
+}
+
+
+ .random-image {
+  position: fixed;
+  margin-top: -300px;
+  right: 130px;
+
+  width: 30%; /* Adjust the width as needed */
+  max-width: 450px; /* Set a max-width for responsiveness */
+  height: 300px; /* Make it full height of the viewport */
+
+}
+
+.random-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.image-container {
+    width: 100%;
+    max-width: 450px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-container {
+    margin-top: 20px;
+}
+
+.home,
+.heading,
+.tagline,
+.button-container {
+    margin-left: 0px;
+}
+
+@media (max-width: 1100px) {
+  .navbar img {
+    margin-left: 15px; /* Adjust the margin as needed */
+  }
+
+  .navbar-toggler {
+    margin-right: 15px; /* Add space to the right of the toggler */
+  }
+}
+
+
+
+.navbar img {
+  margin-left: 15px; /* Add left margin to the logo */
+}
+
+.container-fluid {
+  margin-right: 1500px;
+}
+
+.nav-item {
+  margin-left: 28px;
+  margin-right: 12px;
+}
+
+.sign-in {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-right: 45px;
+  margin-top: 7px;
+}
+
+.btn-primary {
+  margin-right: 10px;
+}
+
+.sign-in:hover {
+  color: #007bff;
+}
+
+.home {
+  color: blue;
+}
+
+.h {
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+@media (max-width: 1050px) {
+  .h {
+    margin-top: 5px;
+    margin-left: 200px;
+  }
+}
+
+.p {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.h {
+  width: 60%;
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.img img {
+  width: 100%;
+  max-width: 450px; /* Adjust the max-width as needed */
+  height: auto;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+@media (max-width: 600px) {
+  .p {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 120px;
+   font-size: large;
+  }
+  
+
+  .h,
+  .img {
+    width: 100%;
+    /* margin-right: 0; */
+    margin-left: 20px;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+}
+body {
+  overflow-x: hidden;
+}
+/* ...................................... */
+.box {
+  position: relative;
+  border-radius: 25px;
+  background-color: #007bff;
+  width: 1200px;
+  height: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.box img {
+  margin-top: 10px;
+  width: 200px;
+  height: auto;
+}
+
+.box .box-text {
+  
+  top: 100px;
+  left: 26%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: rgb(181, 188, 78);
+  text-align: center;
+  font-style: normal;
+  
+}
+
+.box--text {
+  position: absolute;
+  top: 40px;
+  left: 70%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+}
+
+.input-group {
+  margin-top: 20px;
+}
+
+.input-group input {
+  width: 70%;
+}
+
+.qr {
+  margin-top: 200px;
+  margin-left: 400px;
+  width: 200px; /* Set your desired width / / Set your desired height */
+}
+
+.foto,
+.fotos {
+  margin-top: 20px;
+  margin-left: 130px;
+  width: 180px;
+  height: 2cm;
+}
+.footer{
+  text-align: center;
+    margin-bottom: 12px;
+    /* margin-left: 180px; */
+
+}
+
+/* Media Query for smaller screens (max-width: 500px) */
+@media (max-width: 800px) {
+ 
+  .box {
+    position: relative;
+  border-radius: 25px;
+  background-color: #007bff;
+  max-width: 600px;
+  height: 900px;
+  margin: 30px auto; /* Center the box horizontally */
+   /* Add padding to the box */
+  
+
+  }
+
+  .box img {
+    margin-top: 45px;
+  max-width: 70%;
+  height: 300px;
+  width: 50%;
+
+  margin-left:127px;/*Adjust the margin-left for smaller screens */
+  }
+
+  .box .box-text {
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    transform: translateX(-50%); 
+    font-size: 30px;
+    color: rgb(181, 188, 78);
+    text-align: center;
+    font-style: normal;
+    
+
+  }
+  .photo {
+    margin-top: -20px;
+    margin-left: -200px;
+    width: 210px;
+  } 
+
+  .photo img {
+    height: 2cm; 
+    width: 12px;
+    
+  }
+
+  .photo1{
+    margin-top: -80px;
+    margin-left: 240px;
+    width:210px;
+    margin-top: -73px;
+    margin-left: 250px;
+
+
+  }
+  .photo1 img{
+    height:2cm;
+    width:auto;
+    
+  }
+  .box .qr {
+    margin-top: 80px;
+    margin-left: 220px; /* Adjust the margin-left for smaller screens */
+
+    width: 15%; /* Take full width on smaller screens */
+  }
+  .qr.qr {
+    height: 2cm;
+    width: 110px;
+  }
+
+  .box .box--text {
+    position: absolute;
+    top: 400px;
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    color: white;
+    text-align: center;
+  }
+
+  .footer {
+    text-align: center;
+    margin-bottom: 12px;
+    margin-left: 180px;
+    }
+}
+@media (max-width: 768px) {
+  #Signup {
+    width: auto;
+    margin-left: 70%;
+  }
+}
+.t{
+ margin-top: -20px;
+margin-left:70px;
+}
+.g{
+width:25%;
+
+}
+.square-btn {
+width: 80px;
+height: 50px;
+}
+.g {
+gap: 10px;
+}
+
+.square-btn {
+margin-top: 10px;
+margin-left: 40px;
+width:80%;
+white-space: nowrap;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* ... (rest of your CSS code) ... */
+
+/* Media Query for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .container-fluid {
+    margin-right: 0;
+    
+    
+  }
+
+  .nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .sign-in {
+    margin-left: 10px;
+  }
+
+  #Signup {
+    margin-left: 5px;
+  }
+
+  .box {
+    max-width: 100%;
+    height: auto;
+    margin: 30px 0px 0px 70px;
+  }
+
+  .box img {
+    margin-top: 45px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+body {
+  overflow-x: hidden;
+  
+}
+
+.container-fluid {
+  margin-left: 220px;
+}
+
+.nav-item {
+  margin-left: 28px;
+  margin-right: 12px;
+}
+
+.sign-in {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-right: 45px;
+  margin-top: 7px;
+}
+
+.sign-in:hover {
+  color: #007bff;
+}
+
+.home {
+  color: blue;
+}
+
+.h {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+@media (max-width: 1050px) {
+  .h {
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+}
+
+.text {
+  font-weight: bold;
+  margin-top: -15px;
+  margin-left: 60px;
+}
+
+@media (max-width: 700px) {
+  .nav-item {
+    margin-right: 80%;
+  }
+
+  .sign-in {
+    margin-left: 30px;
+  }
+  
+  #Signup {
+    margin-left: 70%;
+  }
+
+  @media (max-width: 768px) {
+    #Signup {
+      width: auto;
+      margin-left: 70%;
+    }
+  }
+}
+
+.t {
+  margin-top: -20px;
+  margin-left: 70px;
+}
+
+.g {
+  width: 25%;
+}
+
+.square-btn {
+  width: 80px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 140px;
+  width: 80%;
+  white-space: nowrap;
+}
+
+
+@media (max-width: 991px) {
+  .nav-item {
+    margin-left: 80%;
+  } 
+  #product{ 
+    margin-left: 85%;  
+    margin-top:10px
+   
+  } 
+  #COMMUNITY{  
+    margin-left: 85%;
+
+  } 
+  #media{ 
+
+    margin-left: 85%;
+  } 
+  #support{ 
+    margin-left: 84%;
+  } 
+  #price{ 
+    margin-left: 85%;
+  }
+
+  .sign-in {
+    margin-right: 10px;
+  }
+
+  #Signup {
+    margin-left: 70%;
+  }
+
+  @media (max-width: 768px) {
+    #Signup {
+      width: auto;
+      margin-left: 20%;
+    }
+  }
+}
+
+.random-image {
+  position: fixed;
+  margin-top: -300px;
+  right: 130px;
+  width: 30%;
+  max-width: 450px;
+  height: 300px;
+}
+
+.random-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.image-container,
+.image-container img,
+.text-container {
+  width: 100%;
+  max-width: 450px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.text-container {
+  margin-top: 20px;
+}
+
+.home,
+.heading,
+.tagline,
+.button-container {
+  margin-left: 0px;
+}
+
+@media (min-width: 992px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .text-container {
+    width: 60%;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+  .image-container {
+    width: 40%;
+  }
+}
+
+.navbar img {
+  margin-left: 15px;
+  
+  
+}
+
+.container-fluid {
+  margin-right: 1500px;
+}
+
+.btn-primary {
+  margin-right: 10px;
+}
+
+.box {
+  position: relative;
+  border-radius: 25px;
+  background-color: #007bff;
+  width: 1200px;
+  height: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.box img {
+  margin-top: 89px;
+  width: 80px;
+  height: auto;
+}
+
+.box .box-text,
+.box--text {
+  position: absolute;
+  font-size: 24px;
+  text-align: center;
+  
+}
+
+.box .box-text {
+  top: 110px;
+  left: 26%;
+  transform: translateX(-50%);
+  color: rgb(181, 188, 78);
+}
+
+.box--text {
+  top: 40px;
+  left: 70%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.input-group {
+  margin-top: 20px;
+}
+
+.input-group input {
+  width: 70%;
+}
+
+.qr {
+  margin-top: 200px;
+  margin-left: 400px;
+  width: 200px;
+}
+
+.foto,
+.fotos {
+  margin-top: 20px;
+  margin-left: 130px;
+  width: 180px;
+  height: 2cm;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+
+@media (max-width: 1100px) {
+  .box {
+    max-width: 600px;
+    height: 900px;
+    margin: 30px auto;
+    margin: 10px 0px 0px 14%;
+  }
+
+  .box img {
+    margin-top: 45px;
+    max-width: 70%;
+    height: 300px;
+    width: 50%;
+    margin-left: 127px;
+  }
+
+  .box .box-text {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: rgb(181, 188, 78);
+    text-align: center;
+    font-style: normal;
+  }
+  
+  .box  .x{
+    margin-left: 0px;
+    margin-top: px;
+  }
+
+
+  .box .qr {
+    margin-top: 80px;
+    margin-left: 220px;
+    width: 15%;
+  }
+
+  .qr.qr {
+    height: 2cm;
+    width: 110px;
+  }
+
+  .box .box--text {
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+  }
+
+  .footer {
+    text-align: center;
+    margin-bottom: 12px;
+    margin-left: 107px;
+  }
+}
+
+@media (max-width: 768px) {
+  #Signup {
+    width: auto;
+    margin-left: 70%;
+  }
+}
+
+  .photo {
+    margin-top: 30px;
+    margin-left: -100px;
+   
+    width: 220px;
+  }
+
+  .photo img {
+    height: 2cm;
+    width: 100%;
+    width: 200px;
+    height: 60px;
+    
+  } 
+
+  .photo1 {
+    
+    margin-left: 20;
+    width: 220px;
+    
+    margin-right: 50px;
+    margin-bottom: 30px;
+  }
+
+  .photo1 img {
+  display: inline;
+    width: 200px;
+    height: 60px;
+    margin-left: 50px;
+  }
+
+  .box .qr {
+    margin-top: 80px;
+    margin-left: 0;
+    width: 50px;
+    height: 50px;
+  }
+
+  .box .box--text {
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+
+  .footer {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+}
+
+/* Media Query for iPad Air (768px < width < 1024px) */
+@media (min-width: 413x) and (max-height: 916px) {
+  body {
+ overflow-y: scroll;
+  }
+}
+
+
+/* ....................................................... */
+@media (max-width: 1100px) {
+  body{
+    width: 700px;
+    height: 1000px;
+    overflow-y: scroll;
+  }
+  .navbar img {
+    margin-left: 15px; 
+  }
+
+  .navbar-toggler {
+    margin-left: 100px;
+    display: flex;
+    
+    /* Add space to the right of the toggler */
+  }
+}
+/* ... (rest of your CSS code) ... */
+
+
+/* ... (rest of your CSS code) ... */
+
+
+/* ... (rest of your CSS code) ... */
+
+@media (max-width: 768px) {
+  .box {
+    /* Other styles for mobile responsiveness */
+     
+    position: relative; 
+   
+    
+  }
+  
+
+ 
+  .box .box--text {
+    position: relative;
+    top: auto;
+    left: auto;
+    
+    transform: none;
+    margin-top: 10px; /* Adjust margin as needed */
+  }
+
+  .box .box-text {
+    text-align: center;
+    margin-left: 130px;
+    margin-top: -50px;
+    
+    color: rgb(181, 188, 78);
+  }
+
+  .box .box--text {
+    color: white;
+   
+  }
+
+  .box::before {
+    content: "";
+    position: absolute;
+    top: 365px;
+    left: 0;
+    right: 0;
+    border-top: 2px solid black;
+    border: off;
+    transform: translateY(-50%);
+  }
+}
+
+/* ... (rest of your CSS code) ... */
+/* ... (rest of your CSS code) ... */
+
+.qr {
+  margin-top: 200px;
+  margin-left: 460px;
+  width: 120px;
+  
+  
+}
+.box .qr{
+  width: 140px;
+  
+  height: 147px;
+}
+
+
+/* ........................................ */
+/* Add these styles to your existing CSS */
+.box{  
+  max-height: 700px;
+  height:300px
+ 
+}
+.box .box-text {
+  position: absolute;
+  top: 55px; /* Adjust as needed */
+  left: 26%; /* Adjust as needed */
+  transform: translateX(-50%);
+  color: rgb(181, 188, 78);
+  text-align: center;
+}
+/* Add these styles to your existing CSS */
+
+.input-group {
+  margin-top: 20px;
+  position: relative;
+}
+
+.input-group input {
+  width: 70%;
+}
+
+.qr-img {
+  
+  top: 100%; /* Position it below the input */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px; /* Set your desired width */
+  height: 100px; /* Set your desired height */
+}
+
+@media (max-width: 768px) { 
+  .box{ 
+    height:700px
+  }    
+  
+  .photo1{  
+    margin-top: -43px; 
+    
+
+  } 
+ 
+ 
+} 
+.box {
+  max-height: 700px;
+  height: 300px;
+  position: relative;
+}
+
+.box img.qr {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100px;
+  height: 100px; 
+  position: absolute;
+  top: 70px; 
+  left: 280px;
+  transform: translate(-50%, -50%);
+}
+
+
+@media (max-width: 768px) {
+  .box {
+    height: 700px;
+  }
+
+  .box img.qr { 
+    top:400px;  
+   
+    left: 270px;
+    width: 100px;
+    height: 80px;  
+    
+  }
+}
